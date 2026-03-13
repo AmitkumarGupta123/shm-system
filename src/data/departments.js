@@ -1,0 +1,60 @@
+const departments = [
+
+{ name:"Cardiology (हृदय रोग विभाग)", location:"1st Floor Block A" },
+{ name:"Neurology (न्यूरोलॉजी विभाग)", location:"2nd Floor Block B" },
+{ name:"Orthopedic (हड्डी रोग विभाग)", location:"3rd Floor Block C" },
+{ name:"Pediatrics (बाल रोग विभाग)", location:"1st Floor Block B" },
+{ name:"Dermatology (त्वचा रोग विभाग)", location:"2nd Floor Block A" },
+{ name:"Gynecology (स्त्री रोग विभाग)", location:"3rd Floor Block B" },
+{ name:"ENT (कान-नाक-गला विभाग)", location:"1st Floor Block C" },
+{ name:"Radiology (रेडियोलॉजी विभाग)", location:"4th Floor Block A" },
+{ name:"Oncology (कैंसर विभाग)", location:"4th Floor Block B" },
+{ name:"Emergency Ward (आपातकालीन वार्ड)", location:"Ground Floor" },
+
+{ name:"ICU (गहन चिकित्सा इकाई)", location:"2nd Floor Block A" },
+{ name:"Operation Theatre (ऑपरेशन थियेटर)", location:"3rd Floor Block A" },
+{ name:"Physiotherapy (फिजियोथेरेपी विभाग)", location:"2nd Floor Block C" },
+{ name:"Psychiatry (मनोचिकित्सा विभाग)", location:"3rd Floor Block D" },
+{ name:"Urology (मूत्र रोग विभाग)", location:"4th Floor Block C" },
+{ name:"Nephrology (गुर्दा रोग विभाग)", location:"4th Floor Block D" },
+{ name:"Gastroenterology (पाचन तंत्र विभाग)", location:"3rd Floor Block E" },
+{ name:"Pulmonology (श्वसन रोग विभाग)", location:"2nd Floor Block D" },
+{ name:"Endocrinology (हार्मोन एवं अंत:स्रावी रोग विभाग)", location:"3rd Floor Block F" },
+{ name:"Hematology (रक्त विज्ञान विभाग)", location:"4th Floor Block E" },
+
+{ name:"Ophthalmology (नेत्र रोग विभाग)", location:"1st Floor Block D" },
+{ name:"Dental Department (दंत चिकित्सा विभाग)", location:"Ground Floor Block A" },
+{ name:"Pathology Lab (पैथोलॉजी प्रयोगशाला)", location:"Ground Floor Block B" },
+{ name:"Microbiology Lab (सूक्ष्मजीव विज्ञान प्रयोगशाला)", location:"Ground Floor Block C" },
+{ name:"Biochemistry Lab (जैव रसायन प्रयोगशाला)", location:"Ground Floor Block D" },
+{ name:"Blood Bank (रक्त बैंक)", location:"1st Floor Block E" },
+{ name:"Dialysis Unit (डायलिसिस इकाई)", location:"2nd Floor Block E" },
+{ name:"Burn Unit (जलन रोग इकाई)", location:"3rd Floor Block G" },
+{ name:"Trauma Center (ट्रॉमा केंद्र)", location:"Ground Floor Block E" },
+{ name:"Plastic Surgery (प्लास्टिक सर्जरी विभाग)", location:"3rd Floor Block H" },
+
+{ name:"Anesthesiology (स्नायुशोथ विभाग)", location:"2nd Floor Block F" },
+{ name:"General Surgery (सामान्य शल्य चिकित्सा)", location:"3rd Floor Block I" },
+{ name:"Internal Medicine (आंतरिक चिकित्सा विभाग)", location:"2nd Floor Block G" },
+{ name:"Family Medicine (परिवार चिकित्सा विभाग)", location:"1st Floor Block F" },
+{ name:"Rehabilitation Center (पुनर्वास केंद्र)", location:"2nd Floor Block H" },
+{ name:"Nutrition & Dietetics (पोषण एवं आहार विज्ञान)", location:"1st Floor Block G" },
+{ name:"Vaccination Center (टीकाकरण केंद्र)", location:"Ground Floor Block F" },
+{ name:"Covid Testing Center (कोविड परीक्षण केंद्र)", location:"Ground Floor Block G" },
+{ name:"Cancer Screening Unit (कैंसर स्क्रीनिंग इकाई)", location:"4th Floor Block F" },
+{ name:"Sleep Disorder Clinic (नींद विकार क्लिनिक)", location:"3rd Floor Block J" },
+
+{ name:"Allergy Clinic (एलर्जी क्लिनिक)", location:"2nd Floor Block I" },
+{ name:"Pain Management Center (दर्द प्रबंधन केंद्र)", location:"3rd Floor Block K" },
+{ name:"Sports Medicine (खेल चिकित्सा विभाग)", location:"2nd Floor Block J" },
+{ name:"Fertility Center (प्रजनन केंद्र)", location:"3rd Floor Block L" },
+{ name:"Weight Management Clinic (वजन प्रबंधन क्लिनिक)", location:"1st Floor Block H" },
+{ name:"HIV Treatment Center (एचआईवी उपचार केंद्र)", location:"Ground Floor Block H" },
+{ name:"Leprosy Treatment Unit (कोढ़ उपचार इकाई)", location:"Ground Floor Block I" },
+{ name:"Tuberculosis Clinic (क्षयरोग क्लिनिक)", location:"Ground Floor Block J" },
+{ name:"Geriatric Care (वृद्ध रोग देखभाल विभाग)", location:"2nd Floor Block K" },
+{ name:"Palliative Care (पुनर्वास देखभाल इकाई)", location:"4th Floor Block G" }
+
+]
+
+export default departments
