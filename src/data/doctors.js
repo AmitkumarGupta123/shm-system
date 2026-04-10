@@ -12,7 +12,7 @@ time:"9:00 AM - 1:00 PM"
 },
 
 {
-name:"Dr. Rakesh Gupta",
+name:"Dr. Muskan Gupta",
 qualification:"MBBS, DM Cardiology",
 department:"Cardiology (हृदय रोग विभाग)",
 room:"102",
@@ -21,7 +21,7 @@ time:"10:00 AM - 3:00 PM"
 },
 
 {
-name:"Dr. Pooja Verma",
+name:"Dr. Chanda Gupta",
 qualification:"MBBS, MD Cardiology",
 department:"Cardiology (हृदय रोग विभाग)",
 room:"103",

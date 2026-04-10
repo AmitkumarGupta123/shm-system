@@ -28,9 +28,11 @@
 
 /* TITLE */
 .main-title {
-  font-size: 36px;
+  font-size: 40px;
   margin-bottom: 10px;
   font-weight: bold;
+  text-shadow: 2px 2px 5px gray;
+  color: #C62828;
 }
 
 /* SUBTITLE */
@@ -1041,11 +1043,11 @@ font-size:14px;
 
 /* Light / Dark Mode Background */
 .navbar.light {
-  background: #3e7bc2;
+  background: #666768;
 }
 
 .navbar.dark {
-  background: #0b3ad6;
+  background: #0f121d;
 }
 
 /* Logo + Title */
@@ -1053,17 +1055,20 @@ font-size:14px;
   display: flex;
   align-items: center;
   gap: 10px;
+  color: #666768;
 }
+
 
 .navbar-left .logo {
   width: 40px;
   height: 40px;
   object-fit: contain;
   border-radius: 6px;
+  background-color: #C62828;
 }
 
 .navbar-left h2 {
-  color: white;
+  color: rgb(236, 150, 150);
   margin: 0;
   font-size: 22px;
 }
