@@ -1,8 +1,18 @@
 import { useNavigate } from "react-router-dom"
+import { useState } from "react"
 
 function Home(){
 
 const navigate = useNavigate()
+
+// 🔹 Login state
+const [email, setEmail] = useState("")
+const [password, setPassword] = useState("")
+
+const handleLogin = (e) => {
+  e.preventDefault()
+  alert(`Email: ${email} | Password: ${password}`)
+}
 
 return(
 
@@ -20,6 +30,42 @@ Find doctors, departments, hospital facilities and important announcements easil
 यहाँ आप डॉक्टरों की जानकारी, विभागों का स्थान, अस्पताल की सुविधाएँ 
 और महत्वपूर्ण घोषणाएँ आसानी से देख सकते हैं।
 </p>
+
+{/* 🔹 LOGIN BOX START */}
+<div className="login-box">
+  <h3>Login</h3>
+
+  <form onSubmit={handleLogin}>
+    <input
+      type="email"
+      placeholder="Enter Email"
+      value={email}
+      onChange={(e)=>setEmail(e.target.value)}
+    />
+
+    <input
+      type="password"
+      placeholder="Enter Password"
+      value={password}
+      onChange={(e)=>setPassword(e.target.value)}
+    />
+
+    <button type="submit">Login</button>
+  </form>
+
+  {/* 🔹 Create Account Option */}
+  <p style={{marginTop:"10px"}}>
+    Don't have an account?{" "}
+    <span 
+      style={{color:"blue", cursor:"pointer", fontWeight:"bold"}}
+      onClick={()=>navigate("/signup")}
+    >
+      Create Account
+    </span>
+  </p>
+
+</div>
+{/* 🔹 LOGIN BOX END */}
 
 <div className="home-grid">
 
@@ -62,9 +108,7 @@ Check latest hospital updates and health camps.<br/>
 </div>
 
 </div>
-
 </div>
-
 </div>
 
 )

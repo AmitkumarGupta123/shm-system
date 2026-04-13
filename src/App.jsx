@@ -10,6 +10,7 @@ import Departments from "./pages/Departments";
 import Facilities from "./pages/Facilities";
 import Announcements from "./pages/Announcements";
 import EmergencySection from "./pages/EmergencySection";
+import Signup from "./pages/Signup"
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -37,6 +38,7 @@ function App() {
           <Route path="/facilities" element={<Facilities />} />
           <Route path="/announcements" element={<Announcements />} />
           <Route path="/emergency" element={<EmergencySection />} />
+          <Route path="/signup" element={<Signup />} />
         </Routes>
       </BrowserRouter>
     </div>

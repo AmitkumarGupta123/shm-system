@@ -1151,3 +1151,81 @@ font-size:14px;
   }
 }
 
+
+.login-box {
+  width: 280px;
+  margin: 20px auto;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.login-box input {
+  width: 90%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 8px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.signup-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+.signup-box {
+  background: white;
+  padding: 30px;
+  width: 300px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.signup-box h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.signup-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.signup-box input:focus {
+  border-color: #4facfe;
+  box-shadow: 0 0 5px rgba(79,172,254,0.5);
+}
+
+.signup-box button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background: #4facfe;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup-box button:hover {
+  background: #007bff;
+}
